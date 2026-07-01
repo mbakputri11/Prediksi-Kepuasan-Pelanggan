@@ -82,13 +82,13 @@ if menu == "📊 Dashboard Analisis Data":
         st.image("word_positif.png", caption="Confusion Matrix - Hasil Eksperimen Google Colab", use_container_width=True)
         st.caption("""
         **☁️ Analisis Word Cloud:** Word cloud sentimen positif didominasi oleh kata "bagus",
-                    "banget", "anak", dan "suka". Hal ini menunjukkan bahwa sebagian besar pelanggan merasa puas terhadap kualitas produk dan memberikan ulasan yang positif.).
+                    "banget", "anak", dan "suka". Hal ini menunjukkan bahwa sebagian besar pelanggan merasa puas terhadap kualitas produk dan memberikan ulasan yang positif.
         """)
         
     with col5:
         st.image("word_negatif.png", caption="Word Cloud - Ulasan Negatif", use_container_width=True)
         st.caption("""
-        **☁️ Analisis Word Cloud:** Word cloud sentimen negatif didominasi oleh kata "tidak sesuai", "ukuran", "size", dan "kecil". Hal ini menunjukkan bahwa keluhan pelanggan sebagian besar berkaitan dengan ketidaksesuaian ukuran produk yang diterima.).
+        **☁️ Analisis Word Cloud:** Word cloud sentimen negatif didominasi oleh kata "tidak sesuai", "ukuran", "size", dan "kecil". Hal ini menunjukkan bahwa keluhan pelanggan sebagian besar berkaitan dengan ketidaksesuaian ukuran produk yang diterima.
         """)
     
     st.divider()
