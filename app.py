@@ -81,15 +81,14 @@ if menu == "📊 Dashboard Analisis Data":
     with col4:
         st.image("word_positif.png", caption="Confusion Matrix - Hasil Eksperimen Google Colab", use_container_width=True)
         st.caption("""
-        **☁️ Analisis Word Cloud:** Menampilkan aglomerasi kata kunci yang paling sering muncul pada kelompok ulasan * Puas*. 
-        Semakin besar ukuran kata kunci, menandakan faktor tersebut merupakan pemicu utama ketidakpuasan konsumen (misal terkait aspek ukuran atau jahitan celana).
+        **☁️ Analisis Word Cloud:** Word cloud sentimen positif didominasi oleh kata "bagus",
+                    "banget", "anak", dan "suka". Hal ini menunjukkan bahwa sebagian besar pelanggan merasa puas terhadap kualitas produk dan memberikan ulasan yang positif.).
         """)
         
     with col5:
         st.image("word_negatif.png", caption="Word Cloud - Ulasan Negatif", use_container_width=True)
         st.caption("""
-        **☁️ Analisis Word Cloud:** Menampilkan aglomerasi kata kunci yang paling sering muncul pada kelompok ulasan *Tidak Puas*. 
-        Semakin besar ukuran kata kunci, menandakan faktor tersebut merupakan pemicu utama ketidakpuasan konsumen (misal terkait aspek ukuran atau jahitan celana).
+        **☁️ Analisis Word Cloud:** Word cloud sentimen negatif didominasi oleh kata "tidak sesuai", "ukuran", "size", dan "kecil". Hal ini menunjukkan bahwa keluhan pelanggan sebagian besar berkaitan dengan ketidaksesuaian ukuran produk yang diterima.).
         """)
     
     st.divider()
@@ -153,7 +152,6 @@ elif menu == "🔍 Simulasi Klasifikasi Ulasan":
                         st.progress(int(prob_tidak_puas))
                     
                         st.divider()
-                # --- VISUALISASI PROBABILITAS DUA ARAH ---
                 
                 
                 
